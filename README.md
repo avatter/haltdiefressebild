@@ -12,5 +12,7 @@ Eine einfache Chrome Extension, die bei Seitenaufrufen von bild.de ein Stoppschi
 3. Den Button "Entpackte Erweiterung laden" klicken und das Verzeichnis der Extension auswählen
 4. Voilà!
 
+![Screenshot](https://i.imgur.com/BL2oxId.jpg)
+
 
 
