@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "#HaltdieFresseBild",
+  "version": "1.0.0",
+  "description": "Blendet jede Seite von bild.de aus: Für ein Netz ohen Hetze.",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.bild.de/*",
+        "http://www.avatter.de/*"
+            ],
+      "css": [
+        "css/style.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/*"
+    
+  ]
+}

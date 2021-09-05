@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  color: #202020;
+  font-family: monospace;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+html {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+html::before {
+  content: '"Ohne Springer wäre diese Republik heute demokratischer; es gäbe weniger Nationalismus und Rassismus, weniger Polizeistaat, weniger Schnüffler, weniger Misstrauen, weniger Lüge, weniger Prostitution, sexuelle wie politische. Die Bundesrepublik wäre ein friedlicheres Land, nicht so gefährlich für seine Nachbarn und seine eigenen Minderheiten." —  Günter Wallraff';
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15); 
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15);
+  background-color: #ffffff;
+  color: #000000;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 300px!important;
+  padding-bottom: 5%;
+  border-radius: 15px;
+  width: 50%;
+  background-image: url("https://i.imgur.com/rbmUamu.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position:center top;
+}
+
+
+
+
+body {
+  display: none !important;
+
+}
+
+
+ 
