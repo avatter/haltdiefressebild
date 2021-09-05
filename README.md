@@ -1,7 +1,7 @@
 ![Bild.de Chrome Extension](https://i.imgur.com/Bst8LDM.png)
 
 
-# #haltdiefressebild
+# #haltdiefressebild: Chrome Extension
 Eine sehr einfache Chrome Extension, die bei Seitenaufrufen von bild.de ein Stoppschild einbendet. 
 **Wichtig:** Das Laden und der Aufbau der Seiten werden nicht blockiert, sondern lediglich hinter purem CSS versteckt.
 
